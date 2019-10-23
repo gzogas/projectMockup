@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Profile mockup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="profileStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/25f418c8d7.js" crossorigin="anonymous"></script>
+    <script>
+            function scroll() {
+                console.log("test");
+                var elmnt = document.getElementById('myDiv');
+                elmnt.scrollIntoView();
+    
+            }
+        </script>
+    
+        
+</head>
+
+<body>
+
+
+
+    <div class="cover">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Projects name</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#" class="navButton">About</a></li>
+                        <li><a href="#" class="navButton">Gallery</a></li>
+                        <li><a href="#" class="navButton">Contact</a></li>
+                        <li><a href="#" class="navButton sign_in"> Sign in</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container text-center">
+            <h1 style="font-size: 63px;color:white">8BALL CLUB</h1>
+            <p style="font-size: 21px;color:#d4c4b8">SALONICAS MOST ROCKING PLACE !</p>
+        </div>
+
+        <div class="container info">
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="row">
+                        <label for="position">Τοποθεσία</label>
+                        <p name="position"><i class="fas fa-map-marker-alt"></i> Πίνδου 1, Λαδάδικα Θεσσαλονίκη</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <label for="com">Επικοινωνία</label>
+                        <p><i class="fas fa-phone"></i> 6971234986</p>
+                        <p><i class="fas fa-envelope"></i> eightballclub@yahoo.gr</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <label for="timetable">Ωράριο</label>
+                        <p><i class="fas fa-clock"></i> Δε-Κυ 20.00pm-06.00am</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <label for="timetable">Ωράριο</label>
+                        <p>Δε-Κυ 20.00pm-06.00am</p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row" id="more-details">
+                <label for="description">Περιγραφή</label>
+                <p name="description">SALONICAS MOST ROCKING PLACE!! CLUB & LIVE STAGE !!Two floors of Metal, Disco,
+                    Rock, Alternative, Gothic and more! http://www.eightballclub.gr/</p>
+            </div>
+            <div class="text-center">
+                <button onclick="scroll()" class="show-more"><i class="fas fa-angle-down arrow"></i></button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid ">
+        <div class="row content">
+
+            <div class="col-sm-2 sidenav">
+
+            </div>
+
+
+            <div class="col-sm-8">
+
+
+                <div id="myDiv">
+                    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Τελευταία Event</h1>
+                    <a href="#" class="more-events">Δες περισσότερα event <i class="fas fa-angle-right"></i></a>
+                </div>
+                <div style="clear: both;padding:5px"></div>
+                <div class="row text-center">
+                    <div class="col-sm-4">
+
+                        <div class="event" data-toggle="modal" data-target="#myModal">
+                            <div class="event-head">
+                                <img src="imgs/event.jpg" class="img-responsive event-img" style="width:100%" alt="Image">
+                            </div>
+                            <div class="event-body">
+                                <h4>CHURCH OF MAN / BLACKSTONE PUPPETS / LUNAMOTH | Live at 8Ball</h4>
+                                <p><i class="fas fa-clock"></i> Πέμπτη στις 9 μ.μ. – 11:59 μ.μ.</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 8Ball Club Thessaloniki</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="event">
+                            <div class="event-head">
+                                <img src="imgs/event2.jpg" class="img-responsive event-img" style="width:100%" alt="Image">
+                            </div>
+                            <div class="event-body">
+                                <h4>Blood Moon Wolves, AngelInc, Downtown Association, The Crumblers</h4>
+                                <p><i class="fas fa-clock"></i> Σάββατο στις 8 μ.μ. – 11:59 μ.μ</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 8Ball Club Thessaloniki</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="event">
+                            <div class="event-head">
+                                <img src="imgs/event3.jpg" class="img-responsive event-img" style="width:100%" alt="Image">
+                            </div>
+                            <div class="event-body">
+                                <h4>Batmanidis live at Eightball</h4>
+                                <p><i class="fas fa-clock"></i> Παρασκευή στις 9 μ.μ. – 12:30 π.μ</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 8Ball Club Thessaloniki</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div style="clear: both;padding:5px"></div>
+                        <!-- Page Content -->
+                        <div class="container">
+
+                            <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Το μαγαζί μας</h1>
+
+                            <hr class="mt-2 mb-5">
+
+                            <div class="row text-center text-lg-left">
+                                <!-- <div class="row"> -->
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail club-img" src="imgs/eightball3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail club-img"
+                                            src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail club-img"
+                                            src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail club-img"
+                                            src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+                                    </a>
+                                </div>
+                                <!-- </div><br>
+                            <div class="row"> -->
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail club-img"
+                                            src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail club-img"
+                                            src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail club-img"
+                                            src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail club-img"
+                                            src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
+                                    </a>
+                                </div>
+                                <!-- </div><br> -->
+                                <!-- <div class="row"> -->
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail club-img"
+                                            src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail club-img"
+                                            src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail club-img"
+                                            src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <a href="#" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail club-img"
+                                            src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+                                    </a>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div style="clear: both;padding:5px"></div>
+                    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Που θα μας βρείτε</h1>
+                    <hr>
+                    <div class="col-sm-6">
+                        <div class="whole-form">
+                            <div class="form-header">
+
+                                <h3>Επικοινωνία</h3>
+                                <div style="clear: both;padding:5px"></div>
+                            </div>
+                            <div class="contact-form">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="name">Όνομα</label>
+                                                <input class="form-control" name="name" type="text">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="email">Email</label>
+                                                <input class="form-control" name="email" type="email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">Θέμα</label>
+                                                <input class="form-control" name="subject" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label for="message">Μήνυμα</label>
+                                                <textarea class="form-control" name="message" id="" cols="3"
+                                                    rows="5"></textarea>
+                                            </div>
+                                            <input type="submit" class="btn btn-info" value="Αποστολή">
+                                        </div>
+
+
+                                    </div>
+
+
+
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div id="map"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-2 sidenav">
+
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = {
+                lat: 40.635700,
+                lng: 22.936290
+            };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 17,
+                    center: uluru,
+                    styles: [{
+                            "featureType": "all",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#242f3e"
+                            }]
+                        },
+                        {
+                            "featureType": "all",
+                            "elementType": "labels.text.fill",
+                            "stylers": [{
+                                "color": "#746855"
+                            }]
+                        },
+                        {
+                            "featureType": "all",
+                            "elementType": "labels.text.stroke",
+                            "stylers": [{
+                                "color": "#242f3e"
+                            }]
+                        },
+                        {
+                            "featureType": "administrative",
+                            "elementType": "geometry.fill",
+                            "stylers": [{
+                                "color": "#242f3e"
+                            }]
+                        },
+                        {
+                            "featureType": "administrative.locality",
+                            "elementType": "labels.text.fill",
+                            "stylers": [{
+                                    "color": "#d59563"
+                                },
+                                {
+                                    "visibility": "off"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "administrative.land_parcel",
+                            "elementType": "labels.text.fill",
+                            "stylers": [{
+                                "visibility": "off"
+                            }]
+                        },
+                        {
+                            "featureType": "landscape.man_made",
+                            "elementType": "geometry.stroke",
+                            "stylers": [{
+                                    "color": "#808000"
+                                },
+                                {
+                                    "saturation": 100
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "landscape.man_made",
+                            "elementType": "labels.text.fill",
+                            "stylers": [{
+                                "visibility": "off"
+                            }]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "all",
+                            "stylers": [{
+                                "visibility": "off"
+                            }]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "labels.text",
+                            "stylers": [{
+                                "visibility": "off"
+                            }]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "labels.text.fill",
+                            "stylers": [{
+                                    "color": "#d59563"
+                                },
+                                {
+                                    "visibility": "off"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "poi.park",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#263c3f"
+                            }]
+                        },
+                        {
+                            "featureType": "poi.park",
+                            "elementType": "labels.text.fill",
+                            "stylers": [{
+                                "color": "#6b9a76"
+                            }]
+                        },
+                        {
+                            "featureType": "road",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#38414e"
+                            }]
+                        },
+                        {
+                            "featureType": "road",
+                            "elementType": "geometry.stroke",
+                            "stylers": [{
+                                "color": "#212a37"
+                            }]
+                        },
+                        {
+                            "featureType": "road",
+                            "elementType": "labels.text.fill",
+                            "stylers": [{
+                                "color": "#9ca5b3"
+                            }]
+                        },
+                        {
+                            "featureType": "road",
+                            "elementType": "labels.icon",
+                            "stylers": [{
+                                "visibility": "off"
+                            }]
+                        },
+                        {
+                            "featureType": "road.highway",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#746855"
+                            }]
+                        },
+                        {
+                            "featureType": "road.highway",
+                            "elementType": "geometry.stroke",
+                            "stylers": [{
+                                "color": "#1f2835"
+                            }]
+                        },
+                        {
+                            "featureType": "road.highway",
+                            "elementType": "labels.text.fill",
+                            "stylers": [{
+                                "color": "#f3d19c"
+                            }]
+                        },
+                        {
+                            "featureType": "transit",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                    "color": "#2f3948"
+                                },
+                                {
+                                    "visibility": "off"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "transit.station",
+                            "elementType": "all",
+                            "stylers": [{
+                                "visibility": "off"
+                            }]
+                        },
+                        {
+                            "featureType": "transit.station",
+                            "elementType": "labels.text.fill",
+                            "stylers": [{
+                                    "color": "#d59563"
+                                },
+                                {
+                                    "visibility": "off"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                "color": "#17263c"
+                            }]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "labels.text.fill",
+                            "stylers": [{
+                                "color": "#515c6d"
+                            }]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "labels.text.stroke",
+                            "stylers": [{
+                                "color": "#17263c"
+                            }]
+                        }
+                    ]
+                });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC51WUh2Zqxg2X2dH6NfeKxdijLal8I0QQ&callback=initMap">
+    </script>
+
+    <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="padding: 0px;">
+                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 style="color: white" class="modal-title">CHURCH OF MAN / BLACKSTONE PUPPETS / LUNAMOTH | Live at 8Ball</h4>  -->
+                    <img src="imgs/event.jpg" class="img-responsive " style="width:100%" alt="Image">
+                </div>
+                <div class="modal-body">
+
+                    <h4>CHURCH OF MAN / BLACKSTONE PUPPETS / LUNAMOTH | Live at 8Ball</h4>
+                    <p><i class="fas fa-clock"></i> Πέμπτη στις 9 μ.μ. – 11:59 μ.μ.</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 8Ball Club Thessaloniki</p>
+                    <label for="">Λεπτομέριες</label>
+                    <p>Την Πέμπτη 24 Οκτωβρίου 2019, στον πάνω όροφο του Eightball Live Stage θα εμφανιστούν οι Church
+                        Of Man, Blackstone Puppets και Lunamoth.
+
+                        Οι πόρτες ανοίγουν στις 21:00
+
+                        Είσοδος: €5
+
+                        ----------------------------------------------------------------------------------------
+                        Το ροκενρόλλ είναι ο Θεός και οι Church Of Man οι επί της Γης προφήτες του.
+                        ΗλεΧτρικιές κιθάρες, μικροφωνικές κραυγές και μανιώδη μπασοτύμπανα θα κηρύξουν τον Λόγο του
+                        Κυρίου, την Πέμπτη 24/10, στο 8Ball Club Thessaloniki<span id="dots">...</span><span id="more">
+                            (upstairs), στην παρθενική εμφάνιση του συγκροτήματος.
+
+                            Blackstone Puppets is a five member hard rock 'n' roll band from Thessaloniki (GR), formed
+                            in April 2016. The band released a single called "Stoned Alice" on September 15th 2018 and
+                            their debut EP "BREAKDOWN" on May 25th 2019, while they have performed several shows within
+                            their country.
+                            Recently they changed their line-up and are coming back on stage with new material, new
+                            sound but the same rock 'n' roll attitude.
+
+                            Οι Lunamoth είναι μια νέα εκκολαπτόμενη μπάντα, γεννημένη μέσα από την αφρόκρεμα της Rock
+                            μουσικής και μεγαλωμένη από αυτά που είχε να της μάθει. Έχοντας αυτά σαν κληρονομιά, ψάχνει
+                            να βρει τον ήχο με τον οποίο θα μιλήσει στο σήμερα, δίνοντας το δικό της ηχόχρωμα και
+                            εξιστορώντας την παλιά Rock με Alternative, new Grunge, new Rock ήχο, την νέα εποχή.</span>
+                    </p>
+                    <button class="btn" onclick="myFunction()" id="myBtn">Read more <i
+                            class="fas fa-angle-down read-more-arrow"></i></button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" style="background-color: lightcoral;color:white"
+                        data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+            document.getElementsByClassName("read-more-arrow")[0].className = "read-more-arrow";
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more <i class='fas fa-angle-down read-more-arrow'></i>";
+
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less <i class='fas fa-angle-up read-more-arrow'></i>";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

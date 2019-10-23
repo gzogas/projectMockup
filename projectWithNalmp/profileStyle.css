@@ -1,0 +1,195 @@
+#more {
+            display: none;
+        }
+
+        body {
+            background-color: whitesmoke;
+        }
+
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+
+            background: transparent;
+            border: 0;
+            padding-top: 10px;
+        }
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: #3d4045;
+            color: white;
+            padding: 25px;
+        }
+
+        .sidenav {
+            padding-top: 20px;
+
+            height: 100%;
+        }
+
+        .row.content {
+            height: auto;
+        }
+
+        .cover {
+            margin-bottom: 30px;
+            background-color: #f1f1f1;
+            /* padding-bottom: 100px; */
+            background-image: url("file:///C:/Users/gzogas/Desktop/photo-1507901747481-84a4f64fda6d.webp");
+        }
+
+        /* Set the size of the div element that contains the map */
+        #map {
+            height: 300px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+
+        .info {
+            box-shadow: 0 10px 50px -12px rgba(0, 0, 0, 0.25);
+            padding-left: 50px;
+            padding-top: 30px;
+            padding-bottom: 15px;
+            top: 100px;
+
+            position: relative;
+
+            z-index: 10 !important;
+
+            background-color: white;
+
+            border-radius: 10px;
+            font-size: 16px;
+            margin-bottom: 130px;
+        }
+
+        .navButton {
+
+            font-weight: bold;
+        }
+
+        .nav .active {
+            color: white !important;
+            font-weight: bold;
+            background-color: transparent !important;
+        }
+
+        .nav .active a {
+
+            background-color: transparent !important;
+        }
+
+        i {
+            color: #999;
+        }
+
+        .sign_in {
+            border: 1px solid #9d9d9d !important;
+            border-radius: 10px;
+        }
+
+        .sign_in:hover {
+            border: 1px solid white !important;
+            border-radius: 10px;
+        }
+
+        .event {
+            /* background-color: whitesmoke; */
+            box-shadow: 0px 10px 50px -10px rgba(0, 0, 0, 0.25);
+        }
+
+        .event:hover {
+            box-shadow: 0px 10px 50px -10px lightcoral;
+            cursor: pointer;
+        }
+
+        .event-body {
+            padding: 10px;
+            background-color: white;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        .event-img {
+            border-radius: 10px 10px 0 0;
+            width: 400px;
+            height: 220px;
+        }
+
+        h3,
+        .more-events {
+            display: inline;
+        }
+
+        .more-events {
+            float: right;
+            font-weight: bold;
+
+        }
+
+        .more-events:hover {
+
+            text-decoration: none;
+        }
+
+        .contact-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0px 10px 50px -10px rgba(0, 0, 0, 0.25);
+        }
+
+        #myCarousel {
+            width: 100%;
+        }
+
+        .carousel-inner>.item>a>img,
+        .carousel-inner>.item>img,
+        .img-responsive,
+        .thumbnail a>img,
+        .thumbnail>img {
+            height: 300px !important;
+        }
+
+        .club-img {
+            height: 200px;
+            width: 262.5px;
+        }
+
+        .form-header {
+            background-color: lightcoral;
+            color: white;
+            padding-top: 7px;
+            padding-left: 8px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .show-more {
+            /* position: absolute; */
+
+            border-radius: 50%;
+
+            background-color: white;
+
+            border: none;
+
+            width: 40px;
+
+            height: 40px;
+
+            margin-top: -8px;
+            position: absolute;
+            margin-left: -42px;
+        }
+
+        .show-more i {
+            color: lightcoral;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+
+
+        .club-img:hover {
+            box-shadow: 0px 0px 10px 0px lightcoral;
+        }
+    </style>
